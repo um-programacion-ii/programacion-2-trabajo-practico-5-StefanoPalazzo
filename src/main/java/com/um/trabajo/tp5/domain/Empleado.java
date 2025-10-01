@@ -37,6 +37,10 @@ public class Empleado {
     @NotNull @Column(nullable = false, precision = 10, scale = 2)
     private BigDecimal salario;
 
+    @Column(nullable = false)
+    private boolean activo = true;
+
+
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "departamento_id", foreignKey = @ForeignKey(name = "fk_empleado_departamento"))
     private Departamento departamento;
