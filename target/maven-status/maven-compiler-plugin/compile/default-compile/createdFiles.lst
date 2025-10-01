@@ -1,2 +1,5 @@
 com/um/trabajo/tp5/TrabajoPractico5StefanoPalazzoApplication.class
+com/um/trabajo/tp5/domain/Proyecto.class
 com/um/trabajo/tp5/health/HelloController.class
+com/um/trabajo/tp5/domain/Empleado.class
+com/um/trabajo/tp5/domain/Departamento.class
